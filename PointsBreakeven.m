@@ -2,11 +2,11 @@
 % interest overtaken the cost of points.
 % assuem 30 years loan, 2% annual inflation
 
-compRates = [6.99, 7, 7.125, 7.25, 7.49]/12/100;
+compRates = [6.99, 7.125, 7.125, 7.375, 7.49]/12/100;
 %compRates = [6.99, 7.125, 7.25, 7.49]/12/100;
 
 baseRates = ones(1,length(compRates))*7.49/12/100;
-rateCosts = [4231, 4107, 2693, 2580, 0];
+rateCosts = [4325, 2703, 1605, 660, 0];
 %rateCosts = [4231, 2613, 2224, 0];
 
 for i = 1:length(compRates)
